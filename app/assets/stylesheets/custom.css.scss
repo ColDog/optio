@@ -1,0 +1,90 @@
+
+.container-fluid {
+	width: 90%;
+	margin-top: 10px;
+}
+.collapsing {
+	background-color: #f8f8f8;
+	border: none;
+}
+.collapsing:hover {
+	background-color: #f8f8f8;
+}
+
+.in {background-color: #f8f8f8;}
+
+.heading3 {font-size: 2em; font-weight: 100; text-align: center;}
+.heading {
+	font-size: 3.5em;
+	font-weight: 100;
+	color: #666;
+	text-align: center;
+}
+.heading2 {
+	font-size: 3em;
+	font-weight: 100;
+	color: #666;
+	float: left;
+	margin-top: 0;
+	margin-right: 20px;
+}
+.spacing {height: 71px;}
+
+.slider-caption {
+	font-weight: 200;
+}
+
+.glyphicon {
+	float: right;
+}
+.col-md-3 {
+	position: relative;
+}
+.navbar {
+	height: 70px;
+}
+
+ul {
+}
+
+.color1 {
+	background-color: #eee;
+}
+.clear {
+	clear: both;
+}
+
+.content {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	border-top: thin solid;
+	border-color: #ddd;
+}
+
+.jumbotron {
+	margin-top: 50px;
+}
+#slider {
+}
+
+.feed {
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 90%;
+	height: 200px;
+	border: thin dashed #999;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+}
+.background-color {
+	background-color: #eee;
+	width: 100%;
+	border-top: thin solid #888;
+}
+
+footer {
+	height: 400px;
+	background-color: #666;
+}

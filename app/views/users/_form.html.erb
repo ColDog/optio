@@ -1,0 +1,43 @@
+<div id="Start" class="content">
+  <div class="jumbotron">
+      <h1>Sign Up Today</h1>
+      <p>Fill out the form below with the services that you desire and your timeline so we can get started that application immediately</p>
+      <form class="" role="email-send">
+        <div class="row">
+            <div class="form-group col-md-6">
+              <%= form_for(@user) do |f| %>
+                <%= f.label :email %>
+                <%= f.text_field :email, class: 'form-control' %>
+                <%= f.label :name %>
+                <%= f.text_field :name, class: 'form-control' %>          
+                <label>When would you like your first consultation?</label>
+                <%= f.date_field :consultation, class: 'form-control' %>
+              </div>
+              <div class="col-md-6">
+                <label>Service Required</label>
+                <ul class="checkbox">
+                  <%= f.label :resume do %>
+                    <%= f.check_box :resume %> <span>Resume</span>
+                  <% end %>
+                  <%= f.label :cover do %>
+                    <%= f.check_box :cover %> <span>Cover Letter</span>
+                  <% end %>
+                  <%= f.label :research do %>
+                    <%= f.check_box :research %> <span>Research</span>
+                  <% end %>
+                  <%= f.label :interview do %>
+                    <%= f.check_box :interview %> <span>Interview</span>
+                  <% end %>
+                  <%= f.label :shopping do %>
+                    <%= f.check_box :shopping %> <span>Resume</span>
+                  <% end %>
+                <% end %>
+              </ul>
+            </div>
+        </div>
+        <div class="row">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+    </form>
+  </div>
+</div>
